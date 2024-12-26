@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 70rem; /*soma dos conteúdos*/
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr; /*primeira col c/ 256px e segunda é flexível (1fr)*/
+  gap: 2rem; /*espaçamento entre os grids*/
+  align-items: self-start; /*a side e a div se alinham com o topo*/
+}
